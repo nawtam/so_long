@@ -39,7 +39,7 @@ void	flood_fill(char **map, int y, int x)
 	if (map[y][x] == 'E')
 	{
 		map[y][x] = '1';
-		return ;	
+		return ;
 	}
 	map[y][x] = 'F';
 	flood_fill(map, y - 1, x);
